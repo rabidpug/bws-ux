@@ -29,7 +29,6 @@ const Footer = styled.div`
   background-color: ${colours.white};
   box-shadow: 0 0.125rem 0.375rem 0 rgba(0, 0, 0, 0.2);
   padding: 0.225rem;
-  height: 2rem;
   line-height: 1.55rem;
   font-size: 1.2rem;
 `;
@@ -37,7 +36,6 @@ const Header = styled.div`
   background-color: ${colours.whiteL1};
   padding: 0.225rem;
   user-select: none;
-  height: 3rem;
   line-height: 2.55rem;
   font-size: 2rem;
 `;

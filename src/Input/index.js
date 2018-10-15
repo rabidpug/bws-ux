@@ -56,6 +56,8 @@ const LabelOutside = styled.span`
 `;
 const LabelElement = styled.label`
   display: ${( { inline, } ) => inline ? 'inline' : 'block'};
+  margin: auto;
+  width: ${( { width, } ) => typeof width === 'number' ? `${width}px` : width ? width : 'auto'};
   outline: 0;
   ${( { required, valid, } ) =>
     required && typeof valid !== 'boolean'
