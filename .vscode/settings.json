@@ -1,0 +1,17 @@
+{
+  "js-import.root": "src",
+  "files.exclude": {
+    "**.vscode": false,
+    "**dist": false,
+    "**coverage": false,
+    "**logs": false,
+    "**node_modules": false,
+    "**yarn-error.log": false,
+    "**yarn.lock": false,
+    "**__mocks__": false,
+    "**/**__snapshots__": true,
+    "**/*.scss.flow": true,
+    "**.jenkins": false,
+    "**lib": false
+  }
+}
